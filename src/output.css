@@ -603,6 +603,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .min-h-80 {
   min-height: 20rem;
 }
@@ -722,6 +726,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -742,6 +750,11 @@ video {
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -760,8 +773,17 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
 .hover\:bg-green-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:block {
+  display: block;
 }
 
